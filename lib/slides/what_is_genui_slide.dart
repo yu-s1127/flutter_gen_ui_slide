@@ -42,7 +42,10 @@ class WhatIsGenuiSlide extends FlutterDeckSlideWidget {
             ),
             Gap(12),
             Text('■ 生成UIを簡単に利用するためのパッケージ', style: textTheme.bodySmall),
-            Text('■ Flutter 3.38（2025/11/12）と同時に公開', style: textTheme.bodySmall),
+            Text(
+              '■ Flutter 3.38（2025/11/12）と同時に公開',
+              style: textTheme.bodySmall,
+            ),
 
             Gap(24),
 
@@ -52,7 +55,7 @@ class WhatIsGenuiSlide extends FlutterDeckSlideWidget {
             ),
             Gap(12),
             Text(
-              '■ TextベースだったLLMの返答をグラフィカルなUIに置き換える',
+              '■ テキストベースだったLLMの返答をグラフィカルなUIに置き換える',
               style: textTheme.bodySmall,
             ),
             Text(' →「テキストの壁」を打ち破ること', style: textTheme.bodySmall),
