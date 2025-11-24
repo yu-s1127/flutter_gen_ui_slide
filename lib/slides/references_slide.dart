@@ -26,10 +26,7 @@ class ReferencesSlide extends FlutterDeckSlideWidget {
               style: textTheme.title.copyWith(fontWeight: FontWeight.bold),
             ),
             Gap(32),
-            Text(
-              '■ flutter/genui - GitHub',
-              style: textTheme.bodySmall,
-            ),
+            Text('■ flutter/genui - GitHub', style: textTheme.bodySmall),
             Text(
               '  https://github.com/flutter/genui',
               style: textTheme.bodySmall.copyWith(color: Colors.blue),
@@ -71,10 +68,7 @@ class ReferencesSlide extends FlutterDeckSlideWidget {
               style: textTheme.bodySmall.copyWith(color: Colors.blue),
             ),
             Gap(16),
-            Text(
-              '■ genui - pub.dev',
-              style: textTheme.bodySmall,
-            ),
+            Text('■ genui - pub.dev', style: textTheme.bodySmall),
             Text(
               '  https://pub.dev/packages/genui',
               style: textTheme.bodySmall.copyWith(color: Colors.blue),
