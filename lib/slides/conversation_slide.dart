@@ -43,6 +43,14 @@ class ConversationSlide extends FlutterDeckSlideWidget {
             Text('■ GenUiConversation', style: textTheme.bodyMedium),
             Gap(24),
             Text('  → AIとのやりとりなどの実装を抽象化しているクラス', style: textTheme.bodySmall),
+            Gap(24),
+
+            Text('■ SerfaceId', style: textTheme.bodyMedium),
+            Gap(24),
+            Text(
+              '  → 会話とUI領域の紐付け（1つの会話から複数のUIを管理）',
+              style: textTheme.bodySmall,
+            ),
           ],
         ),
       ),
