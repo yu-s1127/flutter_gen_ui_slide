@@ -15,16 +15,13 @@ class TechStackSlide extends FlutterDeckSlideWidget {
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
 
-    return FlutterDeckSlide.blank(
+    return .blank(
       builder: (_) => Padding(
-        padding: const EdgeInsets.all(48),
+        padding: const .all(48),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: .start,
           children: [
-            Text(
-              '技術構成',
-              style: textTheme.title.copyWith(fontWeight: FontWeight.bold),
-            ),
+            Text('技術構成', style: textTheme.title.copyWith(fontWeight: .bold)),
             Gap(32),
             Text('■ 必要なFlutterバージョン', style: textTheme.bodyMedium),
             Gap(16),

@@ -14,16 +14,16 @@ class ConversationSlide extends FlutterDeckSlideWidget {
   @override
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
-    return FlutterDeckSlide.split(
-      theme: FlutterDeckThemeData.dark(),
+    return .split(
+      theme: .dark(),
       leftBuilder: (_) => Padding(
-        padding: const EdgeInsets.all(48),
+        padding: const .all(48),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: .start,
           children: [
             Text(
               '対話用インスタンスの作成',
-              style: textTheme.title.copyWith(fontWeight: FontWeight.bold),
+              style: textTheme.title.copyWith(fontWeight: .bold),
             ),
             Gap(32),
             Text(

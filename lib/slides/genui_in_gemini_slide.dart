@@ -14,8 +14,8 @@ class GenuiInGeminiSlide extends FlutterDeckSlideWidget {
   @override
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
-    return FlutterDeckSlide.split(
-      theme: FlutterDeckThemeData.dark().copyWith(
+    return .split(
+      theme: .dark().copyWith(
         splitSlideTheme: const FlutterDeckSplitSlideThemeData(
           leftBackgroundColor: Colors.black,
           leftColor: Colors.white,

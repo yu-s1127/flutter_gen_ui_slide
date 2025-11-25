@@ -15,16 +15,13 @@ class ReferencesSlide extends FlutterDeckSlideWidget {
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
 
-    return FlutterDeckSlide.blank(
+    return .blank(
       builder: (_) => Padding(
-        padding: const EdgeInsets.all(48),
+        padding: const .all(48),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: .start,
           children: [
-            Text(
-              '参考文献',
-              style: textTheme.title.copyWith(fontWeight: FontWeight.bold),
-            ),
+            Text('参考文献', style: textTheme.title.copyWith(fontWeight: .bold)),
             Gap(32),
             Text('■ flutter/genui - GitHub', style: textTheme.bodySmall),
             Text(

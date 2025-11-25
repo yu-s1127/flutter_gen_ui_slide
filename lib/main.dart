@@ -23,9 +23,9 @@ class GenUiPresentationApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterDeckApp(
-      lightTheme: FlutterDeckThemeData.light().copyWith(
+      lightTheme: .light().copyWith(
         textTheme: const FlutterDeckTextTheme(
-          display: TextStyle(fontSize: 80, fontWeight: FontWeight.bold),
+          display: TextStyle(fontSize: 80, fontWeight: .bold),
           header: TextStyle(fontSize: 60),
           title: TextStyle(fontSize: 60),
           subtitle: TextStyle(fontSize: 56),
@@ -34,9 +34,9 @@ class GenUiPresentationApp extends StatelessWidget {
           bodySmall: TextStyle(fontSize: 20),
         ),
       ),
-      darkTheme: FlutterDeckThemeData.dark().copyWith(
+      darkTheme: .dark().copyWith(
         textTheme: const FlutterDeckTextTheme(
-          display: TextStyle(fontSize: 80, fontWeight: FontWeight.bold),
+          display: TextStyle(fontSize: 80, fontWeight: .bold),
           header: TextStyle(fontSize: 60),
           title: TextStyle(fontSize: 60),
           subtitle: TextStyle(fontSize: 56),
@@ -53,7 +53,7 @@ class GenUiPresentationApp extends StatelessWidget {
           showSocialHandle: false,
         ),
         header: FlutterDeckHeaderConfiguration(showHeader: false),
-        transition: FlutterDeckTransition.fade(),
+        transition: .fade(),
       ),
       slides: const [
         TitleSlide(),

@@ -14,7 +14,7 @@ class WhoAmISlide extends FlutterDeckSlideWidget {
   @override
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
-    return FlutterDeckSlide.template(
+    return .template(
       headerBuilder: (_) => FlutterDeckHeader(title: '自己紹介'),
       contentBuilder: (_) => Padding(
         padding: .all(24),

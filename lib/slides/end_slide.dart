@@ -14,7 +14,7 @@ class EndSlide extends FlutterDeckSlideWidget {
   FlutterDeckSlide build(BuildContext context) {
     final textTheme = FlutterDeckTheme.of(context).textTheme;
 
-    return FlutterDeckSlide.blank(
+    return .blank(
       builder: (_) => Center(
         child: Column(
           mainAxisAlignment: .center,

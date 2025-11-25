@@ -13,8 +13,8 @@ class GenUiDemoSlide extends FlutterDeckSlideWidget {
 
   @override
   FlutterDeckSlide build(BuildContext context) {
-    return FlutterDeckSlide.split(
-      theme: FlutterDeckThemeData.dark().copyWith(
+    return .split(
+      theme: .dark().copyWith(
         splitSlideTheme: const FlutterDeckSplitSlideThemeData(
           leftBackgroundColor: Colors.black,
           leftColor: Colors.white,
@@ -24,10 +24,7 @@ class GenUiDemoSlide extends FlutterDeckSlideWidget {
       ),
       splitRatio: const SplitSlideRatio(left: 1, right: 2),
       leftBuilder: (_) => const Center(
-        child: Text(
-          'デモ',
-          style: TextStyle(fontSize: 60, fontWeight: FontWeight.bold),
-        ),
+        child: Text('デモ', style: TextStyle(fontSize: 60, fontWeight: .bold)),
       ),
       rightBuilder: (_) => const ClipRect(
         child: GenUiChatPage(

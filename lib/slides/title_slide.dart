@@ -12,7 +12,7 @@ class TitleSlide extends FlutterDeckSlideWidget {
 
   @override
   FlutterDeckSlide build(BuildContext context) {
-    return FlutterDeckSlide.blank(
+    return .blank(
       builder: (_) => Padding(
         padding: .symmetric(horizontal: 8),
         child: Column(
