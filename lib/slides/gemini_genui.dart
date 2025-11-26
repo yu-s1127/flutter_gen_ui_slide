@@ -99,6 +99,8 @@ class _GeminiGenUiContentState extends State<_GeminiGenUiContent> {
 
     return Column(
       children: [
+        Text('Geminiアプリに搭載された生成UI', style: textTheme.title),
+        Gap(24),
         Expanded(
           child: kIsWeb
               ? HtmlElementView(viewType: _viewId)

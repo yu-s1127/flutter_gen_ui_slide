@@ -43,10 +43,13 @@ class GenuiInGeminiSlide extends FlutterDeckSlideWidget {
             '■ Gemini 3のアップデートと同時にGemini内で生成UIの機能が実装',
             style: textTheme.bodyMedium,
           ),
+          Gap(8),
+          Text(' →ここで一気に認知度が広がる', style: textTheme.bodyMedium),
+
           Gap(24),
           Text(
             '■ genuiパッケージを直接利用しているわけではないが、影響を受けた内部ライブラリセットを使っている',
-            style: textTheme.bodyMedium,
+            style: textTheme.bodySmall,
           ),
         ],
       ),

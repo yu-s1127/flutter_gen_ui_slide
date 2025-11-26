@@ -5,10 +5,14 @@ import 'package:flutter_genui_slide/slides/conversation_slide.dart';
 import 'package:flutter_genui_slide/slides/gemini_genui.dart';
 import 'package:flutter_genui_slide/slides/genui_demo_slide.dart';
 import 'package:flutter_genui_slide/slides/genui_in_gemini_slide.dart';
+import 'package:flutter_genui_slide/slides/getting_started_movie_slide.dart';
+import 'package:flutter_genui_slide/slides/officially_recommended_slide.dart';
+import 'package:flutter_genui_slide/slides/release_genui_slide.dart';
 import 'package:flutter_genui_slide/slides/structure_genui_slide.dart';
 import 'package:flutter_genui_slide/slides/tech_stack_slide.dart';
 import 'package:flutter_genui_slide/slides/surface_slide.dart';
 import 'package:flutter_genui_slide/slides/what_is_genui_slide.dart';
+import 'package:flutter_genui_slide/slides/what_is_genui_title_slide.dart';
 import 'package:flutter_genui_slide/slides/who_am_i_slide.dart';
 import 'package:flutter_genui_slide/slides/references_slide.dart';
 import 'package:flutter_genui_slide/slides/end_slide.dart';
@@ -59,15 +63,19 @@ class GenUiPresentationApp extends StatelessWidget {
       slides: const [
         TitleSlide(),
         WhoAmISlide(),
-        WhatIsGenuiSlide(),
+        WhatIsGenuiTitleSlide(),
+        ReleaseGenuiSlide(),
         GenuiInGeminiSlide(),
+        OfficiallyRecommendedSlide(),
         GeminiGenuiSlide(),
+        WhatIsGenuiSlide(),
         StructureGenuiSlide(),
         TechStackSlide(),
         CatalogItemSlide(),
         ConversationSlide(),
         SurfaceSlide(),
         GenUiDemoSlide(),
+        GettingStartedMovieSlide(),
         ReferencesSlide(),
         EndSlide(),
       ],

@@ -70,6 +70,12 @@ class ReferencesSlide extends FlutterDeckSlideWidget {
               '  https://pub.dev/packages/genui',
               style: textTheme.bodySmall.copyWith(color: Colors.blue),
             ),
+            Gap(16),
+            Text('■ Getting started with GenUI', style: textTheme.bodySmall),
+            Text(
+              '  https://www.youtube.com/watch?v=nWr6eZKM6no&t=2s',
+              style: textTheme.bodySmall.copyWith(color: Colors.blue),
+            ),
           ],
         ),
       ),
