@@ -24,7 +24,9 @@ class OfficiallyRecommendedSlide extends FlutterDeckSlideWidget {
           children: [
             Text('Flutter公式が露骨に推し始める', style: textTheme.title),
             Gap(24),
-            Expanded(child: Image.asset('assets/release-genui.png')),
+            Expanded(
+              child: Image.asset('assets/officially_recommended_slide.png'),
+            ),
             Gap(8),
             Text('https://x.com/FlutterDev', style: textTheme.bodySmall),
           ],
