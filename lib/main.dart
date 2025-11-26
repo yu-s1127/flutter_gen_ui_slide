@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_deck/flutter_deck.dart';
 import 'package:flutter_genui_slide/slides/catalog_item_slide.dart';
 import 'package:flutter_genui_slide/slides/conversation_slide.dart';
+import 'package:flutter_genui_slide/slides/gemini_genui.dart';
 import 'package:flutter_genui_slide/slides/genui_demo_slide.dart';
 import 'package:flutter_genui_slide/slides/genui_in_gemini_slide.dart';
 import 'package:flutter_genui_slide/slides/structure_genui_slide.dart';
@@ -60,6 +61,7 @@ class GenUiPresentationApp extends StatelessWidget {
         WhoAmISlide(),
         WhatIsGenuiSlide(),
         GenuiInGeminiSlide(),
+        GeminiGenuiSlide(),
         StructureGenuiSlide(),
         TechStackSlide(),
         CatalogItemSlide(),
